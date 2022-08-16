@@ -42,8 +42,8 @@ def alternative():
     global countries
     
     print("Sending: " + str(len(countries) + 1) + " countries!")
-
-    s(5)
+   
+    s(5) #The seconds you have before the spammer will start, try to time it with the quiz start!
     for c in countries:
         spammer.typewrite(c.lower(), interval=0)
 
