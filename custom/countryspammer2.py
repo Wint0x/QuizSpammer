@@ -29,3 +29,4 @@ for word in answers:
 FINISH = perf_counter()
 
 print(f"Finished in: {round(FINISH-START,2)} seconds!")
+input()
