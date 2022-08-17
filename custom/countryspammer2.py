@@ -17,7 +17,7 @@ def get_list():
 
 
 print("You have 5 seconds to find find your quiz's entry box")
-print(f"\nSending: {len(get_list()) + 1} words!\n")
+print(f"\nSending: {len(get_list())} words!\n")
 
 answers = get_list()
 
