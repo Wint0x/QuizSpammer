@@ -19,9 +19,9 @@ def get_list():
 print("You have 5 seconds to find find your quiz's entry box")
 print(f"\nSending: {len(get_list()) + 1} words!\n")
 
-s(5)
-
 answers = get_list()
+
+s(5)
 
 for word in answers:
     spammer(word,interval=0)
